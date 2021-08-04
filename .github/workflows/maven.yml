@@ -2,7 +2,11 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - '*'         # matches every branch that doesn't contain a '/'
+      - '*/*'       # matches every branch containing a single '/'
+      - '**'        # matches every branch
+    branches-ignore:
+      - 'master'   # excludes master
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
