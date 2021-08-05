@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.hp.kotlinmvc.KotlinMvcApplication
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.hp.kotlinmvc.KotlinMvcApplication.kt
