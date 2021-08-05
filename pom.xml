@@ -122,7 +122,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.hp.kotlinmvc.KotlinMvcApplication</mainClass>
+					<mainClass>com.hp.kotlinmvc.KotlinMvcApplication.main</mainClass>
 				</configuration>
 				<executions>
 					<execution>
